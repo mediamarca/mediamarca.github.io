@@ -448,7 +448,19 @@ body {
 	background: #eee;
 }
 
-body, p, h1, span, 
+.bg-black {
+	background: #444;
+	height: 450px;
+	padding: 24px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.bg-black .wrapper {
+	margin: 0 auto;
+}
+
+body, p, h1, span, a, 
 .logo-mediamar {
 	color: #444;
 }
@@ -475,5 +487,9 @@ h1 {
 .wrapper {
 	width: 600px;
 	margin: 24px auto;
+}
+
+iframe {
+	margin-bottom: 0;
 }
 
