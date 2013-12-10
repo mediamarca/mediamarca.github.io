@@ -445,7 +445,7 @@ table {
 
 /* colors */ 
 body {
-	background: #333;
+	background: #333 url(images/tactile_noise.png) repeat;
 }
 
 .frame, a {
