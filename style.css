@@ -504,6 +504,10 @@ a {
 }
 
 /* Core Styles */
+body {
+	padding-bottom: 24px;
+}
+
 .wrapper {
 	width: 600px;
 	margin: 24px auto;
