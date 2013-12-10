@@ -445,24 +445,28 @@ table {
 
 /* colors */ 
 body {
-	background: #eee;
+	background: #333;
 }
 
-.bg-black {
-	background: #444;
-	height: 450px;
-	padding: 24px;
-	width: 600px;
-	margin: 0 auto;
-}
-
-.bg-black .wrapper {
-	margin: 0 auto;
+.frame {
+	background: #ddd;
 }
 
 body, p, h1, span, a, 
 .logo-mediamar {
-	color: #444;
+	color: #ddd;
+}
+
+.text-shadow {
+	text-shadow: -1px 1px 2px #000;
+}
+
+.box-shadow {
+	box-shadow: -1px 1px 2px #000;
+}
+
+a:hover {
+	text-shadow: 0 0 15px #bbb;
 }
 
 /* Fonts */
@@ -471,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Palatino, “Palatino Linotype”, “Palatino LT STD”, “Book Antiqua”, Georgia, serif;
 	font-size: 16px;
 	line-height: 24px;
-	margin: 0 0 24px;
+	margin: 0 0 12px;
 	text-align: center;
 }
 
@@ -479,14 +483,28 @@ h1 {
 	font-size: 24px;
 	line-height: 24px;
 	text-transform: uppercase;
-	margin-bottom: 12px;
 }
+
 
 
 /* Core Styles */
 .wrapper {
 	width: 600px;
 	margin: 24px auto;
+}
+
+
+/*video*/
+.frame {
+	height: 450px;
+	padding: 6px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+.frame .wrapper {
+	margin: 0 auto;
 }
 
 iframe {
