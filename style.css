@@ -463,6 +463,7 @@ h1 {
 	font-size: 24px;
 	line-height: 24px;
 	text-transform: uppercase;
+  text-shadow: 1px 1px 1px #444;
 }
 
 /* Core Styles */
@@ -474,7 +475,6 @@ body {
 body {
     height: 100vh;
     display: flex;
-    flex-align: vertical;
     align-items: center;
     justify-content: center;
 }
